@@ -1,7 +1,13 @@
 body {
     background: #FF4C00;
     background: linear-gradient(0deg, rgba(255, 76, 0, 1) 0%, rgba(4, 30, 66, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 4vw + 1.5rem, 3.75rem);
 }
 
 .fascinate {
@@ -21,16 +27,19 @@ h2 {
     color: white;
     bottom: 10px;
     right: 10px;
+    font-size: clamp(2.5rem, 4vw + 1.5rem, 3.75rem);
 }
 
 h3 {
   font-size: 80px;
   color: orangered;
+  font-size: clamp(2.5rem, 4vw + 1.5rem, 3.75rem);
 }
 
 h4 {
   font-size: 80px;
   color: navy;
+  font-size: clamp(2.5rem, 4vw + 1.5rem, 3.75rem);
 }
 
 .rubik {
