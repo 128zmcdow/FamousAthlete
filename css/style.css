@@ -1,6 +1,6 @@
 body {
-    background: #FF4C00;
-    background: linear-gradient(0deg, rgba(255, 76, 0, 1) 0%, rgba(4, 30, 66, 1) 100%);
+    background: #008E97;
+    background: linear-gradient(0deg, rgba(0, 142, 151, 1) 0%, rgba(252, 76, 2, 1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 80px;
-  color: navy;
+  color: aqua;
   font-size: clamp(2.5rem, 4vw + 1.5rem, 3.75rem);
 }
 
